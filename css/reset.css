@@ -1,0 +1,93 @@
+/* --------------- reset.css --------------- */
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, em, img, strong, sub, sup, b,
+u, i,  dl, dt, dd, ol, ul, li, fieldset, form, label, table, tbody, tfoot,
+thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer,
+header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;                               /* Ð¾Ð±Ð½ÑƒÐ»ÑÐµÐ¼ Ð¾Ñ‚ÑÑ‚ÑƒÐ¿Ñ‹ Ð¸ ÑƒÐ±Ð¸Ñ€Ð°ÐµÐ¼ Ð±Ð¾Ñ€Ð´ÑŽÑ€Ñ‹ */
+	vertical-align: baseline;          /* Ð¿Ñ€Ð¸Ð²Ð¾Ð´Ð¸Ð¼ Ð²ÑÐµ Ðº Ð¾Ð´Ð½Ð¾Ð¹ Ð±Ð°Ð·Ð¾Ð²Ð¾Ð¹ Ð»Ð¸Ð½Ð¸Ð¸ */
+	background: transparent;      /* Ñ‡Ñ‚Ð¾Ð±Ñ‹ Ð½Ðµ Ð¿Ñ€Ð¾ÑÐºÐ°ÐºÐ¸Ð²Ð°Ð»Ð¸ Ð»ÐµÐ²Ñ‹Ðµ Ñ„Ð¾Ð½Ñ‹, ÑƒÑÑ‚Ð°Ð½Ð¾Ð²Ð»ÐµÐ½Ð½Ñ‹Ðµ Ð¿Ð¾ ÑƒÐ¼Ð¾Ð»Ñ‡Ð°Ð½Ð¸ÑŽ */
+	font-size: 100%;                     /* Ñ€Ð°Ð·Ð¼ÐµÑ€ ÑˆÑ€Ð¸Ñ„Ñ‚Ð° Ð²ÑÐµÐ¼ Ð¾Ð´Ð¸Ð½Ð°ÐºÐ¾Ð²Ñ‹Ð¹ */
+}
+a {                                      	     /* ÑÑÑ‹Ð»ÐºÐ° Ð½Ðµ Ð² Ð¾Ð±Ñ‰ÐµÐ¼ ÑÐ¿Ð¸ÑÐºÐµ Ñ‡Ñ‚Ð¾Ð±Ñ‹ Ð½Ðµ ÑÐ±Ñ€Ð°ÑÑ‹Ð²Ð°Ñ‚ÑŒ outline Ð¿Ð¾ ÑƒÐ¼Ð¾Ð»Ñ‡Ð°Ð½Ð¸ÑŽ */
+	margin:0;
+	padding:0;
+	font-size:100%;
+	vertical-align:baseline;
+	background:transparent;
+}
+table {						/* ÑƒÑÑ‚Ñ€Ð°Ð½ÑÐµÐ¼ Ð¾Ñ‚ÑÑ‚ÑƒÐ¿Ñ‹ Ð¼ÐµÐ¶Ð´Ñƒ ÑÑ‡ÐµÐ¹ÐºÐ°Ð¼Ð¸ Ñ‚Ð°Ð±Ð»Ð¸Ñ†Ñ‹ */
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+td, td img {
+	vertical-align: top;			/* Ð²Ð¾Ð·Ð²Ñ€Ð°Ñ‰Ð°ÐµÐ¼ Ð¿Ñ€Ð¸Ð²Ñ‹Ñ‡Ð½Ð¾Ðµ Ð²ÐµÑ€Ñ‚Ð¸ÐºÐ°Ð»ÑŒÐ½Ð¾Ðµ Ð²Ñ‹Ñ€Ð°Ð²Ð½Ð¸Ð²Ð°Ð½Ð¸Ðµ */
+}
+input, select, button, textarea {
+	margin: 0; 				/* ÑƒÐ±Ð¸Ñ€Ð°ÐµÐ¼ Ð¾Ñ‚ÑÑ‚ÑƒÐ¿Ñ‹ Ð¿Ð¾ ÑƒÐ¼Ð¾Ð»Ñ‡Ð°Ð½Ð¸ÑŽ Ð´Ð»Ñ ÑÐ»ÐµÐ¼ÐµÐ½Ñ‚Ð¾Ð² Ñ„Ð¾Ñ€Ð¼ (Ð² Ñ‡Ð°ÑÑ‚Ð½Ð¾ÑÑ‚Ð¸ Ð´Ð»Ñ checkbox Ð¸ radio) */
+	font-size: 100%; 			/* Ð´ÐµÐ»Ð°ÐµÐ¼ Ñ€Ð°Ð·Ð¼ÐµÑ€ ÑˆÑ€Ð¸Ñ„Ñ‚Ð¾Ð² Ð²ÐµÐ·Ð´Ðµ Ð¾Ð´Ð¸Ð½Ð°ÐºÐ¾Ð²Ñ‹Ð¼ */
+}
+input[type="text"], input[type="password"], textarea {
+	padding: 0; 				/* ÑƒÐ±Ð¸Ñ€Ð°ÐµÐ¼ Ð²Ð½ÑƒÑ‚Ñ€ÐµÐ½Ð½Ð¸Ðµ Ð¾Ñ‚ÑÑ‚ÑƒÐ¿Ñ‹ Ð´Ð»Ñ Ñ‚ÐµÐºÑÑ‚Ð¾Ð²Ñ‹Ñ… Ð¿Ð¾Ð»ÐµÐ¹ */
+}
+input[type="checkbox"] { 		/* Ð²ÐµÑ€Ñ‚Ð¸ÐºÐ°Ð»ÑŒÐ½Ð¾Ðµ Ð²Ñ‹Ñ€Ð°Ð²Ð½Ð¸Ð²Ð°Ð½Ð¸Ðµ Ñ‡ÐµÐºÐ±Ð¾ÐºÑÐ¾Ð² Ð¸ Ñ€Ð°Ð´Ð¸Ð¾Ð±Ð°Ñ‚Ð¾Ð½Ð¾Ð² Ð¾Ñ‚Ð½Ð¾ÑÐ¸Ñ‚ÐµÐ»ÑŒÐ½Ð¾ Ð¼ÐµÑ‚Ð¾Ðº */
+	vertical-align: bottom;
+}
+input[type="radio"] {
+	vertical-align: text-bottom;
+}
+sub {
+	vertical-align: sub;
+	font-size: smaller;
+}
+sup {
+	vertical-align: super;
+	font-size: smaller;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display:block;
+}
+nav ul {
+	 list-style:none;
+}
+/* --------------- /reset.css --------------- */
+
+/* --------------- Ð±Ð°Ð·Ð¾Ð²Ñ‹Ðµ Ð½Ð°ÑÑ‚Ñ€Ð¾Ð¹ÐºÐ¸ ---------*/
+html {
+	overflow-y: scroll; /* Ð²ÑÐµÐ³Ð´Ð° Ð¿Ð¾ÐºÐ°Ð·Ñ‹Ð²Ð°ÐµÐ¼ Ð²ÐµÑ€Ñ‚Ð¸ÐºÐ°Ð»ÑŒÐ½ÑƒÑŽ Ð¿Ð¾Ð»Ð¾ÑÑƒ Ð¿Ñ€Ð¾ÐºÑ€ÑƒÑ‚ÐºÐ¸  */
+}
+body {
+	line-height: 1;
+	background: #fff;
+	color: #000;
+	text-align: left;
+	font: 14px Arial, "Helvetica CY", "Nimbus Sans L", sans-serif; /* Ð¸ÑÐ¿Ð¾Ð»ÑŒÐ·ÑƒÐµÐ¼ Ð±ÐµÐ·Ð¾Ð¿Ð°ÑÐ½Ñ‹Ðµ ÑˆÑ€Ð¸Ñ„Ñ‚Ð¾Ð²Ñ‹Ðµ CSS ÑÑ‚ÐµÐºÐ¸ */
+}
+input, select, button, textarea { /* Ñ‡Ñ‚Ð¾Ð±Ñ‹ ÑˆÑ€Ð¸Ñ„Ñ‚ Ð±Ñ‹Ð» Ñ‚Ð°ÐºÐ¾Ð¹ Ð¶Ðµ ÐºÐ°Ðº Ð¸ Ð²ÐµÐ·Ð´Ðµ */
+	font-family: Arial, "Helvetica CY", "Nimbus Sans L", sans-serif;
+}
+label, input[type="button"], input[type="submit"], button {
+	cursor: pointer; /* ÐºÑƒÑ€ÑÐ¾Ñ€ Ð² Ð²Ð¸Ð´Ðµ Ñ€ÑƒÐºÐ¸ Ð´Ð»Ñ Ð²ÑÐµÑ… ÐºÐ»Ð¸ÐºÐ°Ð±ÐµÐ»ÑŒÐ½Ñ‹Ñ… ÑÐ»ÐµÐ¼ÐµÐ½Ñ‚Ð¾Ð² Ñ„Ð¾Ñ€Ð¼ */
+}
+a, a:visited { /* Ð¿Ð¾Ñ€ÑÐ´Ð¾Ðº Ð¿Ñ€Ð°Ð²Ð¸Ð» Ð´Ð»Ñ ÑÑÑ‹Ð»Ð¾Ðº Ð¸Ð¼ÐµÐµÑ‚ Ð·Ð½Ð°Ñ‡ÐµÐ½Ð¸Ðµ */
+	color: #287fc3;
+	text-decoration: underline;
+}
+a:hover {
+	color: #287fc3;
+	text-decoration: none;
+}
+a:focus, a:active {
+	color: #287fc3;
+	text-decoration: underline;
+}
+
+/* --------------- /Ð±Ð°Ð·Ð¾Ð²Ñ‹Ðµ Ð½Ð°ÑÑ‚Ñ€Ð¾Ð¹ÐºÐ¸ ---------*/
+
+.clearfix:after {
+    content: "";
+    clear: both;
+    display: block;
+}
